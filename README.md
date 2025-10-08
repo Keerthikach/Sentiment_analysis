@@ -1,4 +1,8 @@
-Emotion-Aware Text Generator (GoEmotions + FLAN-T5)
+# Emotion-Aware Text Generator (GoEmotions + FLAN-T5)
+
+# Deployement link: https://sentiment-analysis-goemotions.streamlit.app/
+# Deployed on streamlit 
+# The model still rambles and hallucinates a little as it s a small model with just 250M parameteres. this model was chosen to be the best model which puts teh least amount of pressure on any system. Even ones without a GPU or a smaller RAM.
 
 Generate a paragraph or short essay that matches the sentiment/emotions inferred from a user’s prompt.
 Built with Streamlit, Hugging Face Transformers, GoEmotions (for emotion detection), and FLAN-T5-base (for generation).
@@ -167,7 +171,7 @@ Open the local URL shown in your terminal (typically http://localhost:8501).
 
 **This may take a while as the model and generator need to be downloaded/loaded from Huggingface hub and the text generation takes a little bit of time**
 
-# The model still rambles and hallucinates a little as it s a small model with just 250M parameteres. this model was chosen to be the best model which puts teh least amount of pressure on any system. Even ones without a GPU or a smaller RAM.
+
 
 Usage
 
